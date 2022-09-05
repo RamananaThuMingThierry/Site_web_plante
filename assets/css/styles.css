@@ -57,85 +57,85 @@
             --smaller-font-size: .813rem;
         }
     }
+}
 
-    /*=============== BASES ================*/
-    *{
-        box-sizing:border-box;
-        padding:0;
-        margin:0;
-    }
+/*=============== BASES ================*/
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
 
-    html{
-        scroll-behavior: smooth;
-    }
+html{
+    scroll-behavior: smooth;
+}
 
-    body,
-    button,
-    input,
-    textarea{
-        font-family: var(--body-font);
-        font-size: var(--normal-font-size);
-    }
+body,
+button,
+input,
+textarea{
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
 
-    body{
-        margin: var(--header-height) 0 0 0;
-        background-color: var(--body-color);
-        color: var(--text-color)
-    }
+body{
+    margin: var(--header-height) 0 0 0;
+    background-color: var(--body-color);
+    color: var(--text-color)
+}
 
-    button{
-        cursor: pointer;
-        border:none;
-        outline: none;
-    }
+button{
+    cursor: pointer;
+    border:none;
+    outline: none;
+}
 
-    h1,h2,h3{
-        color:var(--titre-color);
-        font-weight: var(--font-semi-bold);
-    }
+h1,h2,h3{
+    color:var(--titre-color);
+    font-weight: var(--font-semi-bold);
+}
 
-    ul{
-        list-style: none;
-    }
+ul{
+    list-style: none;
+}
 
-    a{
-        text-decoration: none;
-    }
+a{
+    text-decoration: none;
+}
 
-    img{
-        max-width: 100%;
-        height: auto;
-    }
-
-
-    /*============ REUSABLE CSS CLASSES ============*/
-    .section{
-        padding:  5.5rem 0 1rem;
-    }
-
-    .section_title,
-    .section_title-center{
-        font-size: var(--h2-font-size);
-        margin-bottom: var(--mb-2);
-        line-height: 140%;
-    }
-
-    .section_title-center{
-        text-align: center;
-    }
+img{
+    max-width: 100%;
+    height: auto;
+}
 
 
-    .container{
-        max-width: 968px;
-        margin-left: var(--mb-1-5);
-        margin-right: var(--mb-1-5);
-    }
+/*============ REUSABLE CSS CLASSES ============*/
+.section{
+    padding:  5.5rem 0 1rem;
+}
 
-    .gird{
-        display: grid;
-    }
+.section_title,
+.section_title-center{
+    font-size: var(--h2-font-size);
+    margin-bottom: var(--mb-2);
+    line-height: 140%;
+}
 
-    .main{
-        overflow: hidden; // Pour animation
-    }
+.section_title-center{
+    text-align: center;
+}
+
+
+.container{
+    max-width: 968px;
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+}
+
+.gird{
+    display: grid;
+}
+
+.main{
+    overflow: hidden; /* Pour animation */
 }
